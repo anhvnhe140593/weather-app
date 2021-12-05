@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/assets/img/thoitiet.jpg");
+    object-fit: cover;
+    background-size: cover;
+}
+.weather{
+    max-width: 900px;
+    margin: auto;
+}
+.weather .intro {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+}
+h1{
+    padding-bottom: 10px;
+}
+.form-inline{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.form-inline button{
+    margin-top: 50px;
+}
+.detail {
+    max-width: 700px;
+    margin: auto;
+}
+.list .box{
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    border-radius: 10px;
+}
